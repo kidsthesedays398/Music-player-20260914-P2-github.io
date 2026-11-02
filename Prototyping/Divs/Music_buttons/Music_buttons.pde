@@ -9,9 +9,7 @@ int appHeight = displayHeight;
 int paperWidth = 215;
 int paperHeight = 278;
 
-// ==========================================
-// 1. DECLARE ALL BUTTON VARIABLES
-// ==========================================
+//
 
 // Minimize
 float minimizeX = appWidth * 10 / paperWidth;
@@ -104,9 +102,7 @@ float saveWidth = appWidth * 15 / paperWidth;
 float saveHeight = appHeight * 12 / paperHeight;
 
 
-// ==========================================
-// 2. DRAW BUTTONS & ICONS (SIMPLIFIED FRACTIONS)
-// ==========================================
+// 
 
 // 1. MINIMIZE BUTTON
 rect(minimizeX, minimizeY, minimizeWidth, minimizeHeight);
